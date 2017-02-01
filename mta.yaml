@@ -1,0 +1,34 @@
+_schema-version: '2.0'
+ID: Test_WebIDE_Repo_SPS12
+version: 0.0.1
+
+modules:
+ - name: web
+   type: html5
+   path: web
+   requires:
+   - name: dev602_01-uaa  
+
+
+ - name: db
+   type: hdb
+   path: db
+   requires:
+    - name: hdi-container
+
+resources:
+  - name: dev602_01-uaa
+    type: com.sap.xs.uaa
+    parameters:
+    config_path: ./xs-security.json  
+ 
+
+  - name: hdi-container
+    properties:
+       hdi-container-name: ${service-name}
+    type: com.sap.xs.hdi-container
+
+parameters:
+ config:
+  schema: dev602
+

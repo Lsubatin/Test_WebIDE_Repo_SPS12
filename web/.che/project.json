@@ -1,0 +1,1 @@
+{"type":"sap.html5","builders":{"default":"ui5-builder","configs":{}},"runners":{"configs":{}},"attributes":{"mta_module_parent":["/Test_WebIDE_Repo_SPS12"],"sap.watt.common.setting":["{\"generation\":[{\"templateId\":\"hanatemplates.ui5project\",\"templateVersion\":\"1.0.0\",\"dateTimeStamp\":\"Thu, 12 Jan 2017 16:47:18 GMT\"}]}"]},"mixinTypes":["mtamodule"]}
